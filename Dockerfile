@@ -15,4 +15,7 @@ RUN pip install -r requirements.txt
 ENV PYTHONUNBUFFERED 1
 
 # Run the Python script manually (modify as per your need)
-CMD ["python", "manual.py"]
+#CMD ["python", "manual.py"]
+
+# Set default command to bash for interactive use
+#CMD ["/bin/bash"]
