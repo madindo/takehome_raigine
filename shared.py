@@ -1,11 +1,10 @@
 import pdfplumber
 import openai
 import smtplib
+import os
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-import os
 from dotenv import load_dotenv
-from transformers import pipeline
 
 load_dotenv()
 

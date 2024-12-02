@@ -29,7 +29,7 @@ for machine_id, group in grouped:
     model = VAR(group[['production_count', 'cycle_time', 'downtime']])
     model_fit = model.fit(maxlags=15)
 
-    # Forecast the next 5 days (as there are 6 machines per day)
+    # Forecast the next 30 days (as there are 6 machines per day)
     forecast_steps = 30
     forecast = model_fit.forecast(y=group[['production_count', 'cycle_time', 'downtime']].values, steps=forecast_steps)
 

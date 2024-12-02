@@ -1,5 +1,6 @@
 from shared import extract_text_from_pdfs, summarize_text, send_email
 from dotenv import load_dotenv
+import os
 
 load_dotenv()
 

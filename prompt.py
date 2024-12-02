@@ -9,11 +9,11 @@ def handle_prompt():
     if "summarize" in user_prompt.lower():
         requested_files = []
         if "invoice_1" in user_prompt.lower():
-            requested_files.append("invoice_1.pdf")
+            requested_files.append("assets/data/invoice_1.pdf")
         if "invoice_2" in user_prompt.lower():
-            requested_files.append("invoice_2.pdf")
+            requested_files.append("assets/data/invoice_2.pdf")
         if "invoice_3" in user_prompt.lower():
-            requested_files.append("invoice_3.pdf")
+            requested_files.append("assets/data/invoice_3.pdf")
 
         # Extract and summarize
         pdf_texts = extract_text_from_pdfs(requested_files)

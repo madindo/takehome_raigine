@@ -1,0 +1,5 @@
+pandas
+statsmodels
+openai==0.28
+pdfplumber
+python-dotenv
