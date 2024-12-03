@@ -15,8 +15,7 @@
 ### Setting docker
 Make sure you have docker installed
 1. docker build -t takehome .
-2. docker run -d --name takehome_container takehome
-3. docker run -it takehome /bin/bash
+2. docker run -it takehome /bin/bash
 
 ### Usage
 After running into the docker bash
